@@ -2,6 +2,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  gap: 10px;
 }
 footer i {
   margin-left: 20px;
@@ -10,4 +11,10 @@ footer i {
 a {
   text-decoration: none;
   color: black;
+}
+
+.icon {
+  display: flex;
+  font-size: 25px;
+  gap: 10px;
 }
