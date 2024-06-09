@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <>
@@ -9,17 +11,29 @@ const Footer = () => {
           <p>© 2024 G3RGES - All Rights Reserved.</p>
         </div>
         <div className="icon">
-          <a href="https://www.facebook.com/gergesnashaat95">
-            <i class="fa-brands fa-facebook"></i>
+          <a
+            href="https://www.instagram.com/gergesnashaat/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaInstagram className="text-4xl" />
           </a>
-          <a href="https://www.instagram.com/gergesnashaat/">
-            <i class="fa-brands fa-instagram"></i>
+          <a
+            href="https://www.facebook.com/gergesnashaat95"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFacebook className="text-4xl" />
           </a>
-          <a href="https://github.com/G3RGES">
-            <i className="fa-brands fa-square-github"></i>
+          <a
+            href="https://www.linkedin.com/in/gergesnashaat/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin className="text-4xl" />
           </a>
-          <a href="https://www.linkedin.com/in/gergesnashaat/">
-            <i class="fa-brands fa-linkedin"></i>
+          <a href="https://github.com/G3RGES" target="_blank" rel="noreferrer">
+            <FaGithub className="text-4xl" />
           </a>
         </div>
       </footer>
