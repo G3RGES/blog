@@ -61,7 +61,7 @@ h2 {
 .home-img img {
   position: absolute;
   left: -40%;
-  top: -34%;
+  top: -40%;
   height: 110vh !important;
   z-index: -1;
 }
@@ -88,7 +88,7 @@ h2 {
   margin: 20px 0 5px 0;
 }
 .left-content .text span {
-  color: crimson;
+  color: #0c0c0c;
   font-size: 15px;
 }
 .left-content .text2 {
