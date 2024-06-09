@@ -130,6 +130,7 @@ h2 {
   .left-content,
   .right-content {
     width: 100%;
+    position: relative;
   }
   .left-content {
     position: relative;
