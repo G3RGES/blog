@@ -95,6 +95,11 @@ h2 {
   float: right;
   text-align: right;
 }
+
+.left-content .qrcode img {
+  margin-top: 25%;
+}
+
 .left-content img {
   margin-top: 35%;
   width: auto;
