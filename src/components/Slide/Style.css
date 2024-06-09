@@ -30,6 +30,6 @@
   padding: 10px;
 }
 .CardTwo.slide .img img:hover {
-  transform: none;
+  transform: none !important;
 }
 /*----------card two----*/
